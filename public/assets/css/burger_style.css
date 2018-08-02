@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(0, 38, 255);
+    font-family: 'Hanalei Fill', cursive;
+}
+
+h2 {
+    color: #00ff00;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+body {
+    color: white;
+    background-image: url('../img/wolfback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button {
+    background-color: black;
+    -webkit-animation-name: image;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes image {
+    from {
+        border-color: #9a0202;
+        -webkit-box-shadow: 0 0 20px rgb(255, 157, 0);
+    }
+    50% {
+        border-color: #fffb00;
+        -webkit-box-shadow: 0 0 40px #ff0000;
+    }
+    to {
+        border-color: #e5ff00;
+        -webkit-box-shadow: 0 0 20px rgb(179, 255, 0);
+    }
+}
+
+.btn-primary {
+    background-color: #00ff00;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+#burger {
+    color: black;
+}
